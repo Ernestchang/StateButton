@@ -2,6 +2,7 @@ package deadline.statebutton;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 text.setEnabled(false);
+
             }
         });
 
@@ -56,10 +58,25 @@ public class MainActivity extends AppCompatActivity {
 
         //设置间断
         dash = (StateButton) findViewById(R.id.dash_test);
+
         dash.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 dash.setEnabled(false);
+                Log.d("ernest", "dash isEnable:" + dash.isEnabled());
+            }
+        });
+
+        final ErButton er = (ErButton) findViewById(R.id.stroke_background_animation_test);
+        er.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.d("ernest", "er isEnable:" + er.isEnabled());
+
+                er.setEnabled(false);
+
+                Log.d("ernest", "er isEnable:" + er.isEnabled());
+
             }
         });
     }

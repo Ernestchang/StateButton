@@ -1,33 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!--text color-->
+    <attr name="er_normalTextColor" format="color|reference" />
+    <attr name="er_pressedTextColor" format="color|reference" />
+    <attr name="er_unableTextColor" format="color|reference" />
+
+    <!--stroke width and color, dash width, dash gap-->
+    <attr name="er_strokeDashWidth" format="dimension|reference" />
+    <attr name="er_strokeDashGap" format="dimension|reference" />
+    <attr name="er_normalStrokeWidth" format="dimension|reference" />
+    <attr name="er_pressedStrokeWidth" format="dimension|reference" />
+    <attr name="er_unableStrokeWidth" format="dimension|reference" />
+    <attr name="er_normalStrokeColor" format="color|reference" />
+    <attr name="er_pressedStrokeColor" format="color|reference" />
+    <attr name="er_unableStrokeColor" format="color|reference" />
+
+    <!--background color-->
+    <attr name="er_normalBackgroundColor" format="color|reference" />
+    <attr name="er_pressedBackgroundColor" format="color|reference" />
+    <attr name="er_unableBackgroundColor" format="color|reference" />
+
+    <!--background radius-->
+    <attr name="er_radius" format="dimension|reference" />
+    <attr name="er_round" format="boolean|reference" />
+
+    <!--animation duration-->
+    <attr name="er_animationDuration" format="integer|reference" />
+    <!--<attr name="er_enable" format="boolean" />-->
+
+
     <declare-styleable name="StateButton">
 
         <!--text color-->
-        <attr name="normalTextColor" format="color|reference"/>
-        <attr name="pressedTextColor" format="color|reference"/>
-        <attr name="unableTextColor" format="color|reference"/>
+        <attr name="normalTextColor" format="color|reference" />
+        <attr name="pressedTextColor" format="color|reference" />
+        <attr name="unableTextColor" format="color|reference" />
 
         <!--stroke width and color, dash width, dash gap-->
-        <attr name="strokeDashWidth" format="dimension|reference"/>
-        <attr name="strokeDashGap" format="dimension|reference"/>
-        <attr name="normalStrokeWidth" format="dimension|reference"/>
-        <attr name="pressedStrokeWidth" format="dimension|reference"/>
-        <attr name="unableStrokeWidth" format="dimension|reference"/>
-        <attr name="normalStrokeColor" format="color|reference"/>
-        <attr name="pressedStrokeColor" format="color|reference"/>
-        <attr name="unableStrokeColor" format="color|reference"/>
+        <attr name="strokeDashWidth" format="dimension|reference" />
+        <attr name="strokeDashGap" format="dimension|reference" />
+        <attr name="normalStrokeWidth" format="dimension|reference" />
+        <attr name="pressedStrokeWidth" format="dimension|reference" />
+        <attr name="unableStrokeWidth" format="dimension|reference" />
+        <attr name="normalStrokeColor" format="color|reference" />
+        <attr name="pressedStrokeColor" format="color|reference" />
+        <attr name="unableStrokeColor" format="color|reference" />
 
         <!--background color-->
-        <attr name="normalBackgroundColor" format="color|reference"/>
-        <attr name="pressedBackgroundColor" format="color|reference"/>
-        <attr name="unableBackgroundColor" format="color|reference"/>
+        <attr name="normalBackgroundColor" format="color|reference" />
+        <attr name="pressedBackgroundColor" format="color|reference" />
+        <attr name="unableBackgroundColor" format="color|reference" />
 
         <!--background radius-->
-        <attr name="radius" format="dimension|reference"/>
-        <attr name="round" format="boolean|reference"/>
+        <attr name="radius" format="dimension|reference" />
+        <attr name="round" format="boolean|reference" />
 
         <!--animation duration-->
-        <attr name="animationDuration" format="integer|reference"/>
+        <attr name="animationDuration" format="integer|reference" />
 
     </declare-styleable>
+
+
+    <declare-styleable name="ErButton">
+
+        <!--text color-->
+        <attr name="er_normalTextColor" />
+        <attr name="er_pressedTextColor" />
+        <attr name="er_unableTextColor" />
+
+        <!--stroke width and color, dash width, dash gap-->
+        <attr name="er_strokeDashWidth" />
+        <attr name="er_strokeDashGap" />
+        <attr name="er_normalStrokeWidth" />
+        <attr name="er_pressedStrokeWidth" />
+        <attr name="er_unableStrokeWidth" />
+        <attr name="er_normalStrokeColor" />
+        <attr name="er_pressedStrokeColor" />
+        <attr name="er_unableStrokeColor" />
+
+        <!--background color-->
+        <attr name="er_normalBackgroundColor" />
+        <attr name="er_pressedBackgroundColor" />
+        <attr name="er_unableBackgroundColor" />
+
+        <!--background radius-->
+        <attr name="er_radius" />
+        <attr name="er_round" />
+
+        <!--animation duration-->
+        <attr name="er_animationDuration" />
+        <!--<attr name="er_enable"/>-->
+
+    </declare-styleable>
+
 </resources>

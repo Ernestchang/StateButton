@@ -156,7 +156,7 @@
             app:pressedBackgroundColor="@color/colorPrimaryDark"
             app:pressedTextColor="@android:color/white"/>
 
-        <deadline.statebutton.StateButton
+        <deadline.statebutton.ErButton
             android:id="@+id/stroke_background_animation_test"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -164,12 +164,13 @@
             android:layout_margin="10dp"
             android:padding="10dp"
             android:text="stroke_background_animation"
-            app:radius="5dp"
-            app:animationDuration="200"
-            app:normalStrokeColor="@android:color/white"
-            app:normalStrokeWidth="2dp"
-            app:normalTextColor="@android:color/white"
-            app:pressedBackgroundColor="@color/colorPrimaryDark"
-            app:pressedTextColor="@android:color/white"/>
+            app:er_radius="5dp"
+            android:enabled="true"
+            app:er_animationDuration="200"
+            app:er_normalStrokeColor="@android:color/white"
+            app:er_normalStrokeWidth="2dp"
+            app:er_normalTextColor="@android:color/white"
+            app:er_unableBackgroundColor="@color/colorPrimaryDark"
+            app:er_unableTextColor="@android:color/white"/>
     </LinearLayout>
 </ScrollView>
